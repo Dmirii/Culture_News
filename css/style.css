@@ -133,7 +133,7 @@
 
 .content{
     margin-top: 46px;
-    background-image: url(/FP/img/intro.jpg);
+    background-image: url(/Culture_News/img/intro.jpg);
     background-repeat: no-repeat ;
     background-size: auto 460px;
     flex: 1 1 auto;
@@ -293,7 +293,7 @@
     height: 551px;
     margin-top: 52px;
     background-color:#F7F7F7;
-    background-image: url(/FP/img/svg/circule.svg);
+    background-image: url(/Culture_News/img/svg/circule.svg);
     background-repeat: no-repeat;
     background-position: center;
     justify-content: center;
