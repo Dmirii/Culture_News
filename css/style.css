@@ -437,13 +437,22 @@
     margin-top: 20px;
 }
 
-.footer-icons{
-   margin-top: 20px;
+.footer-icons-box{
+   background-color: #575757;
+   margin-top: 10px;
    display: flex;
+   height: 40px;
    justify-content: center;
+   align-self: center;  
    
-  
-   
+
+}
+.footer-icons{
+    background-color: #FFFFFF;
+    height:47px;
+    width: 47px;
+    margin-right: 14px;
+    
 
 }
 
