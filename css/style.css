@@ -155,6 +155,11 @@
     justify-content: center; 
     margin-top: 45px;
 }
+
+.intro__logo:hover{
+   height: 600;
+  
+}
 .intro__header{
     display: flex;
     justify-content: center;
@@ -241,20 +246,10 @@
     letter-spacing: 1.98241px;
     color: #000000;
 }
-
-.review_titel_link_on{
-    display: flex;
-    justify-content: center; 
-    text-decoration: none;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16.8505px;
-    line-height: 20px;
-    /* identical to box height */
-    letter-spacing: 1.98241px;
-    color: #FF7931;
+.review_titel_link:hover{
+    color:#FF7931;
 }
+
 
 
 
@@ -357,8 +352,7 @@
 
  }
 .theatre-article{
-    display: flex;
-    
+    display: flex;    
     flex-wrap: wrap;
     margin-top: 20px;   
     max-width: 370px;
@@ -375,7 +369,7 @@
 
 .footer-container{
     background-color: #575757;
-    max-width: 1160px;
+    max-width: 100%;
     margin: 0px auto;
 }
 
@@ -426,6 +420,12 @@
     color: white;
 
 }
+
+.footer_itom:hover{
+      
+    background-color: #FF7931 ;
+}
+
 
 .footer_link{
     color: white;
