@@ -88,6 +88,25 @@
     max-width: 1160px;
     margin: 0px auto;
 }
+
+.container-intro{
+    max-width: 1200px;
+    margin: 0px auto;
+
+}
+
+@media (max-width:1160px)
+{
+    .container{
+    max-width: 970px;
+    }
+}
+@media (max-width:992px)
+{
+    .container{
+    max-width: 750px;
+    }
+}
 .header__logo{
     display: flex;
     justify-content: center;  
@@ -210,7 +229,7 @@
 }
 .reviw_titel_column{
     display: flex;
-    justify-content: center; 
+   /* justify-content: center; */
     margin-top: 20px;
 
 }
@@ -254,30 +273,33 @@
 
 
 .review__table{
-    display: flex;
-    justify-content: center;
+    /*display: flex;
+    justify-content: center;*/
     margin-top: 20px;    
     
 }
 .review__table__element{
-    display: flex;
-    justify-content: stretch;
+    display: flex;/* imortant*/
+   
+    justify-content: center;
+    flex-wrap: wrap;
     
 
 }
 
 
 .review_row{
-   display: flex;
+   display: flex;/**/
     flex-direction: column;
+   flex-wrap: wrap;
     margin-right: 28px;
    
 }
 
 
 .review_img{
-    width: 366.75px;
-    height: 201.21px;      
+    /*width: 366.75px;
+    height: 201.21px;  */    
  
 }
 
