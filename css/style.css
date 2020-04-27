@@ -136,6 +136,12 @@
 
     color: #000000;
 }
+
+.header_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .header_link{
     text-decoration: none;
     color: #000000;
@@ -399,9 +405,9 @@
 .footer_row{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     height: 217px;   
-    background-color: #575757;
-    
+    background-color: #575757;    
 }
 .footer__logo{
     display: flex;
@@ -436,6 +442,13 @@
     
 }
 
+.footer_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
 .footer_itom{    
     display: inline; /* Отображать как строчный элемент */
     margin-right: 20px;
@@ -448,15 +461,16 @@
     background-color: #FF7931 ;
 }
 
-
 .footer_link{
     color: white;
     text-decoration: none;
 }
 
 .footer-line{
-    display: flex;
-    margin-top: 20px;
+    
+  display: flex;
+  margin-top: 30px;
+    
 }
 
 .footer-icons-box{
