@@ -246,8 +246,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     display: flex;
     justify-content: center;
     margin-top: 137px;    
-    width: 451.99px;
-    height: 63.44px;
+    max-width: 451.99px;/**/
+    max-height: 63.44px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -281,8 +281,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     display: flex;
     justify-content: center; 
     margin-top: 10px;
-    width: 366.75px;
-    height: 61.45px;
+    max-width: 366.75px;/**/
+    max-height: 61.45px;
 
     font-family: Roboto;
     font-style: normal;
@@ -522,8 +522,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .footer-icons{
     background-color: #FFFFFF;
-    height:47px;
-    width: 47px;
+    max-height:47px;
+    max-width: 47px;
     margin-right: 14px;
     
 
