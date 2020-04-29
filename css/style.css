@@ -383,19 +383,30 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .theatre-button{
-    display: flex;
-    margin-top: 40px;
-    justify-content: center; 
-    align-self: center;
+    
+    margin-top: 25px;
+    font-style: 22px;
     text-align: center;
-    vertical-align: center;
+  
     text-decoration: none;
     background-color: #FF7931;
     color: white;
     width: 170px;
     height: 47px;
+    
 
 }
+.theatre-button:hover{
+    background-color: white;
+    border: 1px solid #FF7931;
+    color: #FF7931;
+}
+.theatre-button:active{
+    background-color: #000;
+    border: 1px solid #FF7931;
+    color: #FF7931;
+}
+
  p{
     font-family: Roboto;
     font-style: normal;
